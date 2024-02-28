@@ -12,13 +12,13 @@
 <body >
     
 <header>
-    <h2 class="text-6xl">Hunting Phone</h2>
+    <h2 class="text-6xl text-center my-5">Hunting Phone</h2>
 </header>
 
 <main  class=" w-[90%] container mt-5 my-5 mx-auto">
-      <section class="bg-gray-200 p-4">
-        <input id="search-filed" type="text" placeholder="Search here..." class="input w-full max-w-xs" />
-        <button onclick="search()" class="btn btn-accent mx-5 text-white text-lg">Search</button>
+      <section class="bg-gray-200 p-4 justify-center flex">
+        <input id="search-filed" type="text" placeholder="Search here..." class="input w-full max-w-xl" />
+        <button onclick="search()" class="btn btn-accent mx-5 px-10 text-white text-lg">Search</button>
       </section>
 
 
@@ -30,7 +30,7 @@
                 <div id="phone-container" class="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
                 </div>
 
-                <div id="show-all-button" class="hidden mt-5 my-5 ">
+                <div id="show-all-button" class="hidden text-center mt-5 my-5 ">
                   <button onclick="handleShowAll()"  class="btn btn-accent px-10  text-white text-lg">Show All</button>
                 </div>
         </section>
